@@ -1,0 +1,355 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body,html{
+    width: 100%;
+    height: 100%;
+}
+.main{
+    width: 100%;
+    height: 100%;
+    font-family: "Space Grotesk";
+}
+.navbar{
+    padding: 75px 40px;
+    width: 100%;
+    height: 68px;
+    align-items: center;
+    display: flex;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    margin-left: 20px;
+
+}
+.logo h3{
+    font-size: 40px;
+    margin-top: 9px;
+}
+.logo span {
+    margin-top: 6px;
+    
+}
+.logo span img{
+    height: 32px;
+}
+
+.nav ul{
+    margin-left: 100px;
+    display: flex;
+    text-decoration: none;
+}
+.nav ul li a{
+    text-decoration: none;
+    list-style: none;
+    color: #000;
+}
+.nav ul li{
+    display: flex;
+    padding: 30px;
+}
+.btn button {
+    margin-right: 30px;
+    width: 200px;
+    height: 65px;
+    background-color: #fff;
+    border: 1px solid;
+    border-radius: 10px;
+}
+.btn button a{
+    font-size: 17px;
+    
+    text-decoration: none;
+    color: #000;
+}
+.header{
+    padding: 55px;
+    display: flex;
+}
+.left{
+    
+    width: 40%;
+    height: 100%;
+
+}
+
+.left h1{
+    position: relative;
+    bottom: 50px;
+    font-family: 400;
+    font-size: 60px;
+}
+.left p{
+    position: relative;
+    bottom: 20px;
+    font-size: 20px;
+}
+.left button {
+    width: 260px;
+    height: 65px;
+    background-color: #000;
+    border-radius: 10px;
+    border: 1px solid;
+}
+.left button a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+}
+.right{
+    width: 60%;
+    height: 100%;
+    
+}
+.right img{
+    margin-left: 150px;
+}
+.icon img{
+    padding-right: 50px;
+    padding-left: 50px;
+}
+.subheading{
+    margin-top: 100px;
+    margin-left: 50px;
+    display: flex;
+    height: 40px;
+}
+.subheading h2{
+    align-items: center;
+    background-color:#b9fd66;
+    border-radius: 2px;
+    font-size: 30px;
+}
+.subheading p{
+    width: 40%;
+    font-size: 15px;
+    margin-left: 30px;
+}
+.block{
+    height: 47%;
+    gap: 20px;
+    margin: 50px;
+    display: flex;
+}
+.img1{
+    box-shadow: 0px 5px black;
+    border-radius: 50px;
+    width: 50%;
+    height: 100%;
+    background-color: #dfdfdf;
+}
+.img2{
+    overflow: hidden;
+    box-shadow: 0px 5px black;
+    border-radius: 50px;
+    width: 50%;
+    height: 100%;
+    background-color: #b9fd66;
+}
+.label{
+    margin: 50px;
+}
+.label2{
+    margin: 50px;
+}
+.png{
+    position:relative;
+    margin-top: -10%;
+    left: 55%;
+}
+.learn{
+    padding: 0px 20px;
+    margin-top: -25px;
+}
+.learn button{
+    border: none;
+    background-color: #b9fd66;
+    font-size: 20px;
+    position: relative;
+    bottom: 13px;
+    left: 13px;
+    cursor: pointer;
+}
+.learn1{
+    padding: 0px 20px;
+    margin-top: -35px;
+}
+.learn1 button{
+    border: none;
+    background-color: #dfdfdf;
+    font-size: 20px;
+    position: relative;
+    bottom: 13px;
+    left: 13px;
+    cursor: pointer;
+}
+.text1 h2{
+    font-size: 30px;
+    width: 220px;
+    background-color: #b9fd66 ;
+    border-radius: 10px;
+    padding-left: 5px;
+}
+.text2 h2{
+    font-size: 30px;
+    height: 40px;
+    padding-left: 5px;
+    border-radius: 10px;
+    width: 198px;
+    background-color: #b9fd66 ;
+}
+.text3 h2{
+    font-size: 30px;
+    width: 220px;
+    background-color: #fff ;
+    border-radius: 10px;
+    padding-left: 5px;
+}
+.text4 h2{
+    font-size: 30px;
+    height: 40px;
+    padding-left: 5px;
+    border-radius: 10px;
+    width: 198px;
+    background-color: #fff ;
+}
+
+.sub{
+    margin-top: 100px;
+    margin-left: 50px;
+    display: flex;
+    height: 40px;
+}
+.sub h2{
+    align-items: center;
+    background-color:#b9fd66;
+    border-radius: 2px;
+    font-size: 30px;
+}
+.sub p{
+    width: 20%;
+    font-size: 15px;
+    margin-left: 30px;
+}
+.layout{
+    margin: 70px;
+    margin-left: 100px;
+    flex-direction: column;
+    display: flex;
+    gap: 20px;
+}
+.card{
+    box-shadow:0px 5px black;
+    align-items: center;
+    width: 95%;
+    height: 130px;
+    background-color:#f3f3f3;
+    border: 1px solid;
+    border-radius: 30px;
+
+}
+.card1{
+    box-shadow:0px 5px black;
+    align-items: center;
+    width: 95%;
+    height: 200px;
+    background-color: #b9fd66;
+    border: 1px solid;
+    border-radius: 30px;
+}
+.contact{
+    display: flex;
+    gap: 10px;
+    margin: 20px;
+    align-items: center;
+}
+.contact h1{
+    position: relative;
+    top: 19px;
+    left: 20px;
+    margin-bottom: 18px;
+    font-size: 40px;
+}
+
+.contact h3{
+    font-size: 25px;
+    position: relative;
+    top: 19px;
+    left: 20px;
+    margin-bottom: 15px;
+    font-weight: 400;
+    margin-left: 4px;
+}
+
+.line{
+    width: 91%;
+    height: 1px;
+    background-color: #000;
+    margin-left: 41px;
+    position: relative;
+    top: -25px;
+}
+.cicule{
+    color: #000;
+    font-size: 20px;
+    position: relative;
+    top: -50px;
+    left: 92%;
+    width: 45px;
+    height: 45px;
+    border: 1px solid black;
+    background-color: #fff;
+    border-radius: 50% ;
+}
+.cicule h1{
+    margin-left: 11px;
+    margin-top: -7px;
+    font-size: 40px;
+}
+.pera01 p{
+    font-size: 14px;
+    width: 92%;
+    margin-left: 39px;
+    margin-top: -5px;
+}
+.cardtext{
+    position: relative;
+    top: 37%;
+    right: 66px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.texthead h1{
+    font-size: 40px;
+}
+.textpera h3{
+    font-size: 24px;
+    position: relative;
+    right: 185px;
+    font-weight: 500;
+}
+.textplus{
+    color: #000;
+    font-size: 20px;
+    width: 45px;
+    height: 45px;
+    border: 2px solid black;
+    border-radius: 50%;
+    position: relative;
+    left: 126px;
+}
+.textplus h1{
+    margin-left: 8px;
+    margin-top: -5px;
+    font-size: 40px;
+}
+.sub01 {
+    display: flex;
+}
